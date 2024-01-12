@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+   
+}
+h4 {
+    margin: 5px;
+}
+button {
+    cursor: pointer;    
+}
+.container_wrapper {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column; 
+}
+.container_section {
+    margin: 2px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid grey;
+    background-color: aqua;
+}
+.container_item {
+    margin: 4px 2px;
+    display: flex;    
+    justify-content: space-between;    
+}
